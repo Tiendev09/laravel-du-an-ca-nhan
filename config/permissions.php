@@ -1,0 +1,54 @@
+<?php
+return [
+    'access'=>[
+        //Users
+        'list-user'=>'26',
+        'add-user'=>'27',
+        'edit-user'=>'28',
+        'delete-user'=>'29',
+        'grand-permission-user'=>'34',
+        // 'grant permission'=>'34',
+        //Product Categories
+        'list-product-categories'=>'2',
+        'edit-product-categories'=>'5',
+        'add-product-categories'=>'4',
+        'delete-product-categories'=>'3',
+        //Products
+        'list-product'=>'17',
+        'add-product'=>'18',
+        'edit-product'=>'19',
+        'delete-product'=>'20',
+        //Slide
+        'add-slide'=>'23',
+        'list-slide'=>'22',
+        'delete-slide'=>'24',
+        //Posts
+        'list-post'=>'12',
+        'add-post'=>'13',
+        'edit-post'=>'14',
+        'delete-post'=>'15',
+        'post-cat'=>'35',
+        //Pages
+        'list-pages'=>'7',
+        'edit-pages'=>'9',
+        'add-pages'=>'10',
+        'delete-pages'=>'8',
+        //Order
+        'list-order'=>'31',
+        'update-order'=>'32',
+        'delete-order'=>'33',
+        'detail-order'=>'48',
+        //Permission
+        'list-permission'=>'41',
+        'delete-permission'=>'42',
+        //Roles
+        'list-role'=>'43',
+        'add-role'=>'39',
+        'edit-role'=>'40',
+        'delete-role'=>'38',
+        //Brands
+        'list-brand'=>'45',
+        'add-brand'=>'46',
+        'delete-brand'=>'47',
+    ]
+];

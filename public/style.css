@@ -1,0 +1,76 @@
+    /*STYLE*/
+    
+    @import '../public/css/import/fonts.css';
+    @import '../public/css/import/global.css';
+    @import '../public/css/import/header.css';
+    @import '../public/css/import/footer.css';
+    @import '../public/css/import/home.css';
+    @import '../public/css/import/category_product.css';
+    @import '../public/css/import/blog.css';
+    @import '../public/css/import/detail_product.css';
+    @import '../public/css/import/detail_blog.css';
+    @import '../public/css/import/cart.css';
+    @import '../public/css/import/checkout.css';
+    #show {
+        font-size: 20px;
+    }
+    
+    body {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    /* .zoomContainer {
+    max-width: 350px!important;
+    max-height: 350px!important;
+} */
+    
+    .zoomWrapper #zoom {
+        max-width: 350px;
+        max-height: 350px;
+    }
+    
+    #info-cart-wp table tbody tr td .thumb {
+        min-height: 75px;
+    }
+    
+    .owl-item li {
+        height: 365px;
+    }
+    
+    #head-body #search-wp button#sm-s {
+        padding: 11px 20px 11px;
+    }
+    
+    #post-product-wp {
+        height: 400px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    #post-product-wp.active {
+        height: auto;
+    }
+    
+    #post-product-wp .accordion p {
+        position: absolute;
+        bottom: 0;
+        left: 28%;
+        text-align: center;
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px 10px;
+        width: 400px;
+        font-size: 16px;
+    }
+    
+    .section-detail .accor .acc {
+        padding: 10px 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0.8;
+        /* box-shadow: 2px rgba(0, 0, 0, 0.5); */
+        text-align: center!important;
+        color: blue;
+        cursor: pointer;
+    }
