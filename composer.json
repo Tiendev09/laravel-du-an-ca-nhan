@@ -26,10 +26,15 @@
         "nunomaduro/collision": "^4.1",
         "phpunit/phpunit": "^8.5"
     },
+
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "platform-check": false,
+        "sort-packages": true,
+        "platform": {
+            "php": "7.2.5"
+        }
     },
     "extra": {
         "laravel": {
