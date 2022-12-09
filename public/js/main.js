@@ -167,7 +167,7 @@ function addToCart(event) {
                 })
                 .then((result) => {
                     if (result.isConfirmed) {
-                        window.location.href = 'http://localhost/LaravelPro1/unimart/chi-tiet-gio-hang';
+                        window.location.href = 'http://localhost:8082/LaravelPro1/laravel-du-an-ca-nhan/chi-tiet-gio-hang';
                         // window.location.href = 'https://manhtien.unitopcv.com/chi-tiet-gio-hang';
                     } else {
                         location.reload();

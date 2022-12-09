@@ -66,7 +66,8 @@
                                 src="{{ asset('images/logo.png') }}" /></a>
                         <div id="search-wp" class="fl-left">
                             <form action="{{ route('search') }}" method="GET">
-                                <input type="text" name="keyword" id="s" placeholder="Nhập từ khóa tìm kiếm tại đây!">
+                                <input type="text" name="keyword" id="s"
+                                    placeholder="Nhập từ khóa tìm kiếm tại đây!">
                                 <button type="submit" id="sm-s">Tìm kiếm</button>
                             </form>
                         </div>
@@ -75,10 +76,8 @@
                                 <span class="title">Tư vấn</span>
                                 <span class="phone">0987.654.321</span>
                             </div>
-                            <div id="btn-respon" class="fl-right"><i class="fa fa-bars"
-                                    aria-hidden="true"></i></div>
-                            <a href="{{ route('cart.show') }}" title="giỏ hàng" id="cart-respon-wp"
-                                class="fl-right">
+                            <div id="btn-respon" class="fl-right"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                            <a href="{{ route('cart.show') }}" title="giỏ hàng" id="cart-respon-wp" class="fl-right">
                                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                                 <span id="num">{{ Cart::count() }}</span>
                             </a>
@@ -185,7 +184,8 @@
                             <p class="desc">Đăng ký với chúng tôi để nhận được thông tin ưu đãi sớm nhất</p>
                             <div id="form-reg">
                                 <form>
-                                    <input type="email" name="email" id="email" placeholder="Nhập email tại đây">
+                                    <input type="email" name="email" id="email"
+                                        placeholder="Nhập email tại đây">
                                     <button type="button" id="sm-reg">Đăng ký</button>
                                 </form>
                             </div>
